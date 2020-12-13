@@ -264,6 +264,9 @@ margin-top: 20px;
   justify-content: center;
   margin: auto;
   background-color: #2f303a;
+   background-image: url(../images/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
   flex-direction: column;
 padding-top: 200px;
 }
@@ -272,7 +275,7 @@ padding-top: 200px;
   justify-content: center;
   width: 696px;
  align-items: center;
-  
+ 
   text-align: center;
   font-style: normal;
   font-weight: 900;
@@ -359,9 +362,15 @@ color: var(--button-color);
 .feature-points:not(:last-child){
   margin-right: 30px;
 }
-.feature-box {
+.feature-box-one,
+.feature-box-two,
+.feature-box-three,
+.feature-box-four {
  padding-right: 30px;
   width: 270px;
+}
+.feature-box-one::before{
+
 }
 .feature-title-one,
 .feature-title-two,
