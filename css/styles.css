@@ -173,14 +173,8 @@ margin-right: 50px;
 }
 .mail-contact,
 .phone-contact {
-  display:flex;
+  display:inline;
  
-}
-.mail:before {
-  content: "\272a"
-  display: inline-block;
-  background-image: url(../images/sprite.svg#icon-mail);
-margin-right: 20px;
 }
 
 
@@ -231,6 +225,10 @@ margin-top: -20px;
 margin-top: 20px;
   background-color:#ffffff;
   border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px
+   rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .box-image {
  
@@ -577,6 +575,10 @@ padding-bottom: 94px;
   margin-top: 50px;
   
   background: #ffffff;
+  box-shadow: 0px 1px 3px
+   rgba(0, 0, 0, 0.12), 
+   0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-imagine:not(:last-child){
   margin-right: 30px;
@@ -824,14 +826,14 @@ margin: auto;
 
 display: inline-block;
 
-margin: auto;
+margin-top: -20px;
   
 margin-left: 70px;
  
 min-width: 206px;
 
 
-border: solid 3px crimson;
+
 
 
 }
@@ -866,6 +868,7 @@ border: solid 3px crimson;
    width: 20px;
   height: 20px;
  fill: #fff;
+ margin: 0 auto;
 }
 .social-link:hover,
 .social-link:focus{
