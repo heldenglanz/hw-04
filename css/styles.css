@@ -685,9 +685,7 @@ fill: #AFB1B8;
   justify-content: space-between;
  
 }
-.company-item{
-  
-}
+
 .company{
   display: flex;
 align-items: center;
@@ -697,37 +695,35 @@ justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
-.company:hover,
-.company:focus {
+.company-link:hover,
+.company-link:focus {
   border-color: #2196F3;
 }
-.company:hover .company-icon1,
-.company:focus .company-icon1 {
+.company-link:hover .company-icon1,
+.company-link:focus .company-icon1 {
 fill: #2196F3;
 }
-.company:hover .company-icon2,
-.company:focus .company-icon2 {
+.company-link:hover .company-icon2,
+.company-link:focus .company-icon2 {
 fill: #2196F3;
 }
-.company:hover .company-icon3,
-.company:focus .company-icon3 {
+.company-link:hover .company-icon3,
+.company-link:focus .company-icon3 {
 fill: #2196F3;
 }
-.company:hover .company-icon4,
-.company:focus .company-icon4 {
+.company-link:hover .company-icon4,
+.company-link:focus .company-icon4 {
 fill: #2196F3;
 }
-.company:hover .company-icon5,
-.company:focus .company-icon5 {
+.company-link:hover .company-icon5,
+.company-link:focus .company-icon5 {
 fill: #2196F3;
 }
-.company:hover .company-icon6,
-.company:focus .company-icon6 {
+.company-link:hover .company-icon6,
+.company-link:focus .company-icon6 {
 fill: #2196F3;
 }
-.company-link {
- 
-}
+
 .company-link:hover:nth-child(1),
 .company-link:focus:nth-child(1){
 border-color: #2196F3;
